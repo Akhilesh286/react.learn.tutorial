@@ -1,14 +1,19 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import useWindowSize from './tutorials/customHook/useWindowWidth'
+import {CustomHook, ToogleTheme, UseReducer} from './learn'
 
 function App() {
-  const [width,height] = useWindowSize()
-
   return (
     <div className="App">
-      <p>{width}</p>
-      <p>{height}</p>
+
+      {/* topic 1 custom hook  */}
+      {/* <CustomHook/> */}
+
+      {/* topic 2 useReducer and context api */}
+      {/* <UseReducer/> */}
+      {/* <ToogleTheme/> */}
+
+      {/*  */}
     </div>
   );
 }
