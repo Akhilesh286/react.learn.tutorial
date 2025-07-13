@@ -1,1 +1,0 @@
-i am done lke i did pagitation and basic curd operation with react query I don't used swr for now and data fetching is lot more so I have also a plan to learn creating API with flask so that only I can become a fullstack developer 

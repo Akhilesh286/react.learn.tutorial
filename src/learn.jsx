@@ -9,6 +9,7 @@ import CreatePost from './tutorials/reactQuery/post';
 import UpdatePost from './tutorials/reactQuery/put';
 import DeletePost from './tutorials/reactQuery/delete';
 import GetDataByPage from './tutorials/reactQuery/pagination';
+import Urls from './tutorials/reactRouter/urls';
 
 function CustomHook() {
   const [width,height] = useWindowSize()
@@ -43,6 +44,7 @@ function ReactQuery() {
   return (
     <div>
         <QueryClientProvider client={queryClient}>
+          
           {/* <GetData/> */}
           {/* <h1>----------get data form cach -----------</h1> */}
           {/* <GetData2/> */}
@@ -56,11 +58,22 @@ function ReactQuery() {
           {/* <h1>----------delete data -----------</h1> */}
           {/* <DeletePost/> */}
 
-          <GetDataByPage/>
+          {/* <h1>----------Get data by page -----------</h1> */}
+          {/* <GetDataByPage/> */}
+    
         </QueryClientProvider>
     </div>
     )
 
+}
+
+function ReactRouter() {
+  return (
+    <div>
+      <Urls/>
+      <h2>react router</h2>
+    </div>
+  )
 }
 
 function Learn() {
@@ -74,8 +87,10 @@ function Learn() {
             {/* <ToogleTheme/> */}
 
             {/* topic 3 react-query  */}
-            <ReactQuery/>
+            {/* <ReactQuery/> */}
 
+            {/* topic 4 react router */}
+            <ReactRouter/>
         </div>
     )
 }
