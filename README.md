@@ -14,7 +14,7 @@ This techonlogies are not used regularly so i thought to create this learn proje
 
 <pre>
 <code>git clone https://github.com/Akhilesh286/react.learn.tutorial.git
-cd react.learn.tutorial/learn
+cd react.learn.tutorial/
 </code>
 </pre>
 
