@@ -10,6 +10,7 @@ import UpdatePost from './tutorials/reactQuery/put';
 import DeletePost from './tutorials/reactQuery/delete';
 import GetDataByPage from './tutorials/reactQuery/pagination';
 import Urls from './tutorials/reactRouter/urls';
+import IndexedDB from './tutorials/indexedDB/indexedDB'
 
 function CustomHook() {
   const [width,height] = useWindowSize()
@@ -76,6 +77,14 @@ function ReactRouter() {
   )
 }
 
+function IndexedDb() {
+  return (
+    <div>
+      <IndexedDB/>
+    </div>
+  )
+}
+
 function Learn() {
     return (
         <div>
@@ -90,7 +99,8 @@ function Learn() {
             {/* <ReactQuery/> */}
 
             {/* topic 4 react router */}
-            <ReactRouter/>
+            {/* <ReactRouter/> */}
+            <IndexedDb/>
         </div>
     )
 }
